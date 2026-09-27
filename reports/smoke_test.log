@@ -1,0 +1,10 @@
+ML Challenge 2026 — submission validator
+  test dir: C:\Users\Saaik\AppData\Local\Temp\mlg4_smoke_usy5qgwi\dataset\test
+  required S1 entities: 120
+  valid S2/S3 match IDs: 432
+  matching_results.tsv: 120 rows (24 empty, 96 non-empty).
+  candidate_pairs.tsv: 120 rows (0 empty, 120 non-empty).
+
+PASS — no blocking issues found. Safe to submit.
+
+PASS: complete CLI, serial/parallel preparation and prediction equivalence, both validators, archive integrity, and stale-output rejection.

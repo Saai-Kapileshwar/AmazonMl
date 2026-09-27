@@ -1,0 +1,21 @@
+10:07:53 Loaded 500,000 references
+10:08:03 Loaded 1,000,000 references
+10:08:17 Loaded 1,500,000 references
+10:08:31 Loaded 2,000,000 references
+10:09:04 Index: 250,000 reference records
+10:09:22 Index: 500,000 reference records
+10:09:40 Index: 750,000 reference records
+10:09:58 Index: 1,000,000 reference records
+10:10:15 Index: 1,250,000 reference records
+10:10:32 Index: 1,500,000 reference records
+10:10:49 Index: 1,750,000 reference records
+10:11:06 Index: 2,000,000 reference records
+10:11:42 Index ready: 2,206,821 records / 25,031,110 keys
+10:11:43 Sample index ready: 388,027 keys; full-data block limits preserved
+10:12:14 Train retrieval: 200,000 targets; 64,952 pairs; 31s
+10:12:41 Train retrieval: 400,000 targets; 129,578 pairs; 58s
+10:13:16 Train retrieval: 600,000 targets; 194,340 pairs; 92s
+10:13:53 Train retrieval: 800,000 targets; 259,320 pairs; 130s
+10:14:32 Train retrieval: 1,000,000 targets; 323,727 pairs; 168s
+10:15:06 Train retrieval: 1,200,000 targets; 388,311 pairs; 203s
+10:15:36 Train retrieval: 1,400,000 targets; 453,023 pairs; 233s

@@ -1,0 +1,66 @@
+10:16:26 Loaded 500,000 references
+10:16:39 Loaded 1,000,000 references
+10:16:54 Loaded 1,500,000 references
+10:17:07 Loaded 2,000,000 references
+10:17:41 Index: 250,000 reference records
+10:18:00 Index: 500,000 reference records
+10:18:19 Index: 750,000 reference records
+10:18:36 Index: 1,000,000 reference records
+10:18:54 Index: 1,250,000 reference records
+10:19:12 Index: 1,500,000 reference records
+10:19:30 Index: 1,750,000 reference records
+10:19:48 Index: 2,000,000 reference records
+10:20:25 Index ready: 2,206,821 records / 25,031,110 keys
+10:20:26 Sample index ready: 388,027 keys; full-data block limits preserved
+10:20:39 Train retrieval: 200,000 targets; 64,952 pairs; 12s
+10:20:48 Train retrieval: 400,000 targets; 129,578 pairs; 20s
+10:20:56 Train retrieval: 600,000 targets; 194,340 pairs; 28s
+10:21:03 Train retrieval: 800,000 targets; 259,320 pairs; 35s
+10:21:10 Train retrieval: 1,000,000 targets; 323,727 pairs; 42s
+10:21:16 Train retrieval: 1,200,000 targets; 388,311 pairs; 48s
+10:21:24 Train retrieval: 1,400,000 targets; 453,023 pairs; 56s
+10:21:32 Train retrieval: 1,600,000 targets; 517,491 pairs; 64s
+10:21:40 Train retrieval: 1,800,000 targets; 581,872 pairs; 73s
+10:21:48 Train retrieval: 2,000,000 targets; 646,518 pairs; 81s
+10:21:57 Train retrieval: 2,200,000 targets; 710,656 pairs; 89s
+10:22:06 Train retrieval: 2,400,000 targets; 775,106 pairs; 98s
+10:22:15 Train retrieval: 2,600,000 targets; 839,240 pairs; 107s
+10:22:24 Train retrieval: 2,800,000 targets; 904,095 pairs; 116s
+10:22:32 Train retrieval: 3,000,000 targets; 968,676 pairs; 124s
+10:22:40 Train retrieval: 3,200,000 targets; 1,033,102 pairs; 133s
+10:22:49 Train retrieval: 3,400,000 targets; 1,097,980 pairs; 141s
+10:22:57 Train retrieval: 3,600,000 targets; 1,163,298 pairs; 150s
+10:23:06 Train retrieval: 3,800,000 targets; 1,227,723 pairs; 158s
+10:23:14 Train retrieval: 4,000,000 targets; 1,292,036 pairs; 167s
+10:23:23 Train retrieval: 4,200,000 targets; 1,356,286 pairs; 176s
+10:23:32 Train retrieval: 4,400,000 targets; 1,421,287 pairs; 184s
+10:23:40 Train retrieval: 4,600,000 targets; 1,485,366 pairs; 193s
+10:23:49 Train retrieval: 4,800,000 targets; 1,550,262 pairs; 201s
+10:23:57 Train retrieval: 5,000,000 targets; 1,614,854 pairs; 210s
+10:24:05 Train retrieval: 5,200,000 targets; 1,678,056 pairs; 218s
+10:24:14 Train retrieval: 5,400,000 targets; 1,741,166 pairs; 226s
+10:24:22 Train retrieval: 5,600,000 targets; 1,803,690 pairs; 234s
+10:24:26 Train retrieval: 5,800,000 targets; 1,866,112 pairs; 238s
+10:24:30 Train retrieval: 6,000,000 targets; 1,928,857 pairs; 242s
+10:24:34 Train retrieval: 6,200,000 targets; 1,991,830 pairs; 246s
+10:24:39 Train retrieval: 6,400,000 targets; 2,054,677 pairs; 252s
+10:24:48 Train retrieval: 6,600,000 targets; 2,117,278 pairs; 260s
+10:24:56 Train retrieval: 6,800,000 targets; 2,180,131 pairs; 269s
+10:25:05 Train retrieval: 7,000,000 targets; 2,242,789 pairs; 277s
+10:25:14 Train retrieval: 7,200,000 targets; 2,305,030 pairs; 286s
+10:25:24 Train retrieval: 7,400,000 targets; 2,367,865 pairs; 296s
+10:25:34 Train retrieval: 7,600,000 targets; 2,431,198 pairs; 306s
+10:25:43 Train retrieval: 7,800,000 targets; 2,493,402 pairs; 316s
+10:25:54 Train retrieval: 8,000,000 targets; 2,556,299 pairs; 327s
+10:26:04 Train retrieval: 8,200,000 targets; 2,618,525 pairs; 336s
+10:26:13 Train retrieval: 8,400,000 targets; 2,680,779 pairs; 346s
+10:26:23 Train retrieval: 8,600,000 targets; 2,744,080 pairs; 356s
+10:26:33 Train retrieval: 8,800,000 targets; 2,806,836 pairs; 366s
+10:26:43 Train retrieval: 9,000,000 targets; 2,869,836 pairs; 375s
+10:26:52 Train retrieval: 9,200,000 targets; 2,932,551 pairs; 384s
+10:27:01 Train retrieval: 9,400,000 targets; 2,995,566 pairs; 394s
+10:27:10 Train retrieval: 9,600,000 targets; 3,058,671 pairs; 403s
+10:27:19 Train retrieval: 9,800,000 targets; 3,121,407 pairs; 412s
+10:27:28 Train retrieval: 10,000,000 targets; 3,183,676 pairs; 421s
+10:27:37 Train retrieval: 10,200,000 targets; 3,245,901 pairs; 429s
+10:28:31 Feature preparation complete

@@ -1,0 +1,29 @@
+10:23:12 Index ready: 1 records / 0 keys
+test_abbreviations (test_pipeline.PipelineTests.test_abbreviations) ... ok
+test_blank_records_not_everything_matches (test_pipeline.PipelineTests.test_blank_records_not_everything_matches) ... ok
+10:23:12 Index ready: 1 records / 7 keys
+test_country_boundary (test_pipeline.PipelineTests.test_country_boundary) ... ok
+10:23:12 Index ready: 1 records / 7 keys
+test_empty_keys_preserve_batch_ownership (test_pipeline.PipelineTests.test_empty_keys_preserve_batch_ownership) ... ok
+test_id_does_not_change_features (test_pipeline.PipelineTests.test_id_does_not_change_features) ... ok
+10:23:12 Index ready: 1 records / 7 keys
+test_many_matches_and_duplicate_block_keys (test_pipeline.PipelineTests.test_many_matches_and_duplicate_block_keys) ... ok
+test_metric_singletons_and_false_merges (test_pipeline.PipelineTests.test_metric_singletons_and_false_merges) ... ok
+10:23:12 Index ready: 1 records / 7 keys
+test_open_country_and_accents (test_pipeline.PipelineTests.test_open_country_and_accents) ... ok
+test_output_contract (test_pipeline.PipelineTests.test_output_contract) ... ok
+10:23:12 Index ready: 3 records / 21 keys
+test_oversized_block_is_skipped (test_pipeline.PipelineTests.test_oversized_block_is_skipped) ... ok
+10:23:12 Index ready: 3 records / 21 keys
+10:23:12 Sample index ready: 0 keys; full-data block limits preserved
+test_sampling_preserves_full_block_suppression (test_pipeline.PipelineTests.test_sampling_preserves_full_block_suppression) ... ok
+test_tsv_round_trip_empty_comma_address (test_pipeline.PipelineTests.test_tsv_round_trip_empty_comma_address) ... ok
+test_validator_rejects_duplicate_id_list (test_pipeline.PipelineTests.test_validator_rejects_duplicate_id_list) ... ok
+test_validator_rejects_match_outside_candidates (test_pipeline.PipelineTests.test_validator_rejects_match_outside_candidates) ... ok
+test_validator_rejects_missing_source1 (test_pipeline.PipelineTests.test_validator_rejects_missing_source1) ... ok
+test_validator_rejects_unknown_id (test_pipeline.PipelineTests.test_validator_rejects_unknown_id) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 0.063s
+
+OK

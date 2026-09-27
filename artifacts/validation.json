@@ -1,0 +1,2348 @@
+{
+  "tuning": {
+    "entities": 8000,
+    "macro_f05": 0.904597207385378,
+    "pair_precision": 0.9680481396728536,
+    "pair_recall": 0.8228513795836034,
+    "candidate_recall": 0.9260860168575751,
+    "singleton_accuracy": 0.89749430523918,
+    "singleton_count": 439,
+    "empty_baseline_macro_f05": 0.054875,
+    "by_country": {
+      "us": 0.930145415344582,
+      "india": 0.8640439717243903
+    },
+    "threshold": 0.63,
+    "error_examples": [
+      {
+        "source1_entity_id": "S1-496765804",
+        "name": "pdl financial",
+        "truth": [
+          "S2-106868805",
+          "S2-204596069",
+          "S3-583084634",
+          "S3-808828221"
+        ],
+        "predicted": [
+          "S2-106868805",
+          "S3-583084634"
+        ],
+        "score": 0.8333333333333334,
+        "missed_by_blocking": [
+          "S3-808828221"
+        ],
+        "rejected_by_classifier": [
+          "S2-204596069"
+        ],
+        "false_merges": []
+      },
+      {
+        "source1_entity_id": "S1-226709606",
+        "name": "akey madison phillips innovation",
+        "truth": [
+          "S2-170836562",
+          "S3-528228433",
+          "S3-614308613",
+          "S3-759406540"
+        ],
+        "predicted": [
+          "S2-170836562",
+          "S2-809277626",
+          "S3-528228433",
+          "S3-614308613",
+          "S3-759406540"
+        ],
+        "score": 0.8333333333333334,
+        "missed_by_blocking": [],
+        "rejected_by_classifier": [],
+        "false_merges": [
+          "S2-809277626"
+        ]
+      },
+      {
+        "source1_entity_id": "S1-714298469",
+        "name": "staten island youth league",
+        "truth": [
+          "S2-23467090",
+          "S2-289481262",
+          "S3-346894154",
+          "S3-598013062"
+        ],
+        "predicted": [
+          "S2-23467090",
+          "S2-289481262"
+        ],
+        "score": 0.8333333333333334,
+        "missed_by_blocking": [],
+        "rejected_by_classifier": [
+          "S3-346894154",
+          "S3-598013062"
+        ],
+        "false_merges": []
+      },
+      {
+        "source1_entity_id": "S1-148321161",
+        "name": "perfect jay it",
+        "truth": [
+          "S2-897799028",
+          "S3-637972238",
+          "S3-814732755"
+        ],
+        "predicted": [
+          "S3-637972238"
+        ],
+        "score": 0.7142857142857143,
+        "missed_by_blocking": [
+          "S2-897799028",
+          "S3-814732755"
+        ],
+        "rejected_by_classifier": [],
+        "false_merges": []
+      },
+      {
+        "source1_entity_id": "S1-673603707",
+        "name": "crook adamas",
+        "truth": [
+          "S2-217205238",
+          "S2-394970361",
+          "S2-803184886",
+          "S3-825760582"
+        ],
+        "predicted": [
+          "S2-217205238",
+          "S2-394970361",
+          "S2-803184886"
+        ],
+        "score": 0.9375,
+        "missed_by_blocking": [
+          "S3-825760582"
+        ],
+        "rejected_by_classifier": [],
+        "false_merges": []
+      },
+      {
+        "source1_entity_id": "S1-555380499",
+        "name": "shakambari pharmaceuticals india",
+        "truth": [
+          "S2-284561289",
+          "S2-779080088",
+          "S2-936715841",
+          "S3-538112541",
+          "S3-912002508",
+          "S3-959107449",
+          "S3-970427858"
+        ],
+        "predicted": [
+          "S2-284561289",
+          "S2-779080088",
+          "S2-936715841",
+          "S3-538112541",
+          "S3-912002508"
+        ],
+        "score": 0.9259259259259259,
+        "missed_by_blocking": [],
+        "rejected_by_classifier": [
+          "S3-959107449",
+          "S3-970427858"
+        ],
+        "false_merges": []
+      },
+      {
+        "source1_entity_id": "S1-315770695",
+        "name": "giriraj public school",
+        "truth": [
+          "S2-21852379",
+          "S2-628260554",
+          "S3-354126155",
+          "S3-546375591",
+          "S3-828119110"
+        ],
+        "predicted": [
+          "S2-21852379",
+          "S2-628260554",
+          "S3-546375591"
+        ],
+        "score": 0.8823529411764706,
+        "missed_by_blocking": [
+          "S3-354126155"
+        ],
+        "rejected_by_classifier": [
+          "S3-828119110"
+        ],
+        "false_merges": []
+      },
+      {
+        "source1_entity_id": "S1-799152132",
+        "name": "montova xcel",
+        "truth": [
+          "S2-677112004",
+          "S3-447846702",
+          "S3-55464900"
+        ],
+        "predicted": [
+          "S2-323008378",
+          "S2-677112004",
+          "S3-447846702",
+          "S3-55464900"
+        ],
+        "score": 0.7894736842105263,
+        "missed_by_blocking": [],
+        "rejected_by_classifier": [],
+        "false_merges": [
+          "S2-323008378"
+        ]
+      },
+      {
+        "source1_entity_id": "S1-358805585",
+        "name": "global producer",
+        "truth": [
+          "S2-654551669",
+          "S3-201780359"
+        ],
+        "predicted": [
+          "S3-201780359"
+        ],
+        "score": 0.8333333333333334,
+        "missed_by_blocking": [
+          "S2-654551669"
+        ],
+        "rejected_by_classifier": [],
+        "false_merges": []
+      },
+      {
+        "source1_entity_id": "S1-657575895",
+        "name": "suresh services",
+        "truth": [
+          "S2-370911606",
+          "S2-591822405",
+          "S2-705733329",
+          "S3-114622747",
+          "S3-32212869",
+          "S3-360283311",
+          "S3-422919349",
+          "S3-921460825"
+        ],
+        "predicted": [
+          "S2-591822405",
+          "S2-705733329",
+          "S3-114622747",
+          "S3-32212869",
+          "S3-360283311",
+          "S3-422919349",
+          "S3-921460825"
+        ],
+        "score": 0.9722222222222222,
+        "missed_by_blocking": [
+          "S2-370911606"
+        ],
+        "rejected_by_classifier": [],
+        "false_merges": []
+      },
+      {
+        "source1_entity_id": "S1-997708720",
+        "name": "tebrio elite pattana",
+        "truth": [
+          "S2-453491624",
+          "S2-853632839",
+          "S3-788578673"
+        ],
+        "predicted": [
+          "S2-453491624",
+          "S3-788578673"
+        ],
+        "score": 0.9090909090909091,
+        "missed_by_blocking": [],
+        "rejected_by_classifier": [
+          "S2-853632839"
+        ],
+        "false_merges": []
+      },
+      {
+        "source1_entity_id": "S1-415607866",
+        "name": "om sree construction",
+        "truth": [
+          "S2-972326235",
+          "S3-774005305",
+          "S3-823754899",
+          "S3-963462018"
+        ],
+        "predicted": [
+          "S2-972326235"
+        ],
+        "score": 0.625,
+        "missed_by_blocking": [
+          "S3-774005305",
+          "S3-823754899",
+          "S3-963462018"
+        ],
+        "rejected_by_classifier": [],
+        "false_merges": []
+      },
+      {
+        "source1_entity_id": "S1-917806988",
+        "name": "lakshmi infotech",
+        "truth": [
+          "S2-262307244",
+          "S2-764572479"
+        ],
+        "predicted": [],
+        "score": 0.0,
+        "missed_by_blocking": [
+          "S2-262307244",
+          "S2-764572479"
+        ],
+        "rejected_by_classifier": [],
+        "false_merges": []
+      },
+      {
+        "source1_entity_id": "S1-353277636",
+        "name": "jai technologies",
+        "truth": [
+          "S2-670385547",
+          "S3-284171134"
+        ],
+        "predicted": [],
+        "score": 0.0,
+        "missed_by_blocking": [
+          "S2-670385547",
+          "S3-284171134"
+        ],
+        "rejected_by_classifier": [],
+        "false_merges": []
+      },
+      {
+        "source1_entity_id": "S1-754691418",
+        "name": "hulse industries",
+        "truth": [
+          "S2-783320954",
+          "S3-239942082",
+          "S3-518508641",
+          "S3-778934734"
+        ],
+        "predicted": [
+          "S2-783320954",
+          "S3-518508641",
+          "S3-778934734"
+        ],
+        "score": 0.9375,
+        "missed_by_blocking": [],
+        "rejected_by_classifier": [
+          "S3-239942082"
+        ],
+        "false_merges": []
+      },
+      {
+        "source1_entity_id": "S1-411825644",
+        "name": "high engineering",
+        "truth": [
+          "S2-232441694",
+          "S2-98680693",
+          "S3-641606446",
+          "S3-800631402"
+        ],
+        "predicted": [
+          "S3-800631402"
+        ],
+        "score": 0.625,
+        "missed_by_blocking": [
+          "S2-232441694",
+          "S2-98680693",
+          "S3-641606446"
+        ],
+        "rejected_by_classifier": [],
+        "false_merges": []
+      },
+      {
+        "source1_entity_id": "S1-975308537",
+        "name": "ray foundation associates",
+        "truth": [
+          "S2-214170257",
+          "S2-863736915",
+          "S3-155232523",
+          "S3-34721627",
+          "S3-739340864",
+          "S3-801321596",
+          "S3-950706116"
+        ],
+        "predicted": [
+          "S3-34721627",
+          "S3-739340864",
+          "S3-801321596",
+          "S3-950706116"
+        ],
+        "score": 0.8695652173913043,
+        "missed_by_blocking": [],
+        "rejected_by_classifier": [
+          "S2-214170257",
+          "S2-863736915",
+          "S3-155232523"
+        ],
+        "false_merges": []
+      },
+      {
+        "source1_entity_id": "S1-791264016",
+        "name": "delacruz classic tax service",
+        "truth": [
+          "S2-978053482",
+          "S3-368647890"
+        ],
+        "predicted": [
+          "S2-978053482"
+        ],
+        "score": 0.8333333333333334,
+        "missed_by_blocking": [
+          "S3-368647890"
+        ],
+        "rejected_by_classifier": [],
+        "false_merges": []
+      },
+      {
+        "source1_entity_id": "S1-424020681",
+        "name": "indium traders",
+        "truth": [
+          "S2-305508408",
+          "S2-762971141",
+          "S3-624156244",
+          "S3-778499364"
+        ],
+        "predicted": [
+          "S2-305508408",
+          "S2-762971141",
+          "S3-778499364"
+        ],
+        "score": 0.9375,
+        "missed_by_blocking": [
+          "S3-624156244"
+        ],
+        "rejected_by_classifier": [],
+        "false_merges": []
+      },
+      {
+        "source1_entity_id": "S1-112761269",
+        "name": "bbn india mills",
+        "truth": [
+          "S2-42083978",
+          "S3-372055690",
+          "S3-652108265",
+          "S3-963502816"
+        ],
+        "predicted": [
+          "S2-42083978"
+        ],
+        "score": 0.625,
+        "missed_by_blocking": [],
+        "rejected_by_classifier": [
+          "S3-372055690",
+          "S3-652108265",
+          "S3-963502816"
+        ],
+        "false_merges": []
+      },
+      {
+        "source1_entity_id": "S1-390625869",
+        "name": "east foods",
+        "truth": [
+          "S2-109904681"
+        ],
+        "predicted": [],
+        "score": 0.0,
+        "missed_by_blocking": [
+          "S2-109904681"
+        ],
+        "rejected_by_classifier": [],
+        "false_merges": []
+      },
+      {
+        "source1_entity_id": "S1-627425713",
+        "name": "primary care partners",
+        "truth": [
+          "S2-667340084",
+          "S2-781483644",
+          "S2-869884771",
+          "S3-430668648",
+          "S3-659622169"
+        ],
+        "predicted": [
+          "S2-667340084",
+          "S3-430668648",
+          "S3-659622169"
+        ],
+        "score": 0.8823529411764706,
+        "missed_by_blocking": [
+          "S2-781483644",
+          "S2-869884771"
+        ],
+        "rejected_by_classifier": [],
+        "false_merges": []
+      },
+      {
+        "source1_entity_id": "S1-139782630",
+        "name": "bay interests",
+        "truth": [
+          "S2-582749777"
+        ],
+        "predicted": [],
+        "score": 0.0,
+        "missed_by_blocking": [],
+        "rejected_by_classifier": [
+          "S2-582749777"
+        ],
+        "false_merges": []
+      },
+      {
+        "source1_entity_id": "S1-422472248",
+        "name": "no traders",
+        "truth": [
+          "S2-47068189",
+          "S2-672778565",
+          "S3-259031744",
+          "S3-294428704",
+          "S3-440622575",
+          "S3-468233504",
+          "S3-577047392",
+          "S3-714596164"
+        ],
+        "predicted": [
+          "S2-418184379",
+          "S2-47068189",
+          "S2-672778565",
+          "S3-259031744",
+          "S3-440622575",
+          "S3-468233504",
+          "S3-577047392"
+        ],
+        "score": 0.8333333333333334,
+        "missed_by_blocking": [
+          "S3-294428704",
+          "S3-714596164"
+        ],
+        "rejected_by_classifier": [],
+        "false_merges": [
+          "S2-418184379"
+        ]
+      },
+      {
+        "source1_entity_id": "S1-65664866",
+        "name": "royal coastal",
+        "truth": [
+          "S2-804938679",
+          "S3-711177932",
+          "S3-733874045"
+        ],
+        "predicted": [
+          "S3-711177932",
+          "S3-733874045"
+        ],
+        "score": 0.9090909090909091,
+        "missed_by_blocking": [],
+        "rejected_by_classifier": [
+          "S2-804938679"
+        ],
+        "false_merges": []
+      },
+      {
+        "source1_entity_id": "S1-862069655",
+        "name": "orthopedic specialists",
+        "truth": [
+          "S2-632813402",
+          "S3-51448409",
+          "S3-726163364",
+          "S3-803761797"
+        ],
+        "predicted": [
+          "S2-632813402",
+          "S3-51448409",
+          "S3-803761797"
+        ],
+        "score": 0.9375,
+        "missed_by_blocking": [
+          "S3-726163364"
+        ],
+        "rejected_by_classifier": [],
+        "false_merges": []
+      },
+      {
+        "source1_entity_id": "S1-11841347",
+        "name": "anekant consultancy",
+        "truth": [
+          "S3-154515366",
+          "S3-771096143"
+        ],
+        "predicted": [],
+        "score": 0.0,
+        "missed_by_blocking": [],
+        "rejected_by_classifier": [
+          "S3-154515366",
+          "S3-771096143"
+        ],
+        "false_merges": []
+      },
+      {
+        "source1_entity_id": "S1-676882312",
+        "name": "womens health care associates of salem",
+        "truth": [
+          "S2-198825",
+          "S2-865605370",
+          "S3-216461794"
+        ],
+        "predicted": [
+          "S2-198825",
+          "S2-865605370"
+        ],
+        "score": 0.9090909090909091,
+        "missed_by_blocking": [
+          "S3-216461794"
+        ],
+        "rejected_by_classifier": [],
+        "false_merges": []
+      },
+      {
+        "source1_entity_id": "S1-774693912",
+        "name": "apex supply labs",
+        "truth": [
+          "S2-704246292",
+          "S3-348253112",
+          "S3-573484458",
+          "S3-99264155"
+        ],
+        "predicted": [
+          "S3-348253112",
+          "S3-573484458",
+          "S3-99264155"
+        ],
+        "score": 0.9375,
+        "missed_by_blocking": [
+          "S2-704246292"
+        ],
+        "rejected_by_classifier": [],
+        "false_merges": []
+      },
+      {
+        "source1_entity_id": "S1-739416904",
+        "name": "pediatric dentistry federal care associates",
+        "truth": [
+          "S2-28741754",
+          "S2-306350649",
+          "S2-5785916",
+          "S3-6250374",
+          "S3-815647634"
+        ],
+        "predicted": [
+          "S2-28741754",
+          "S2-5785916",
+          "S3-6250374",
+          "S3-815647634"
+        ],
+        "score": 0.9523809523809523,
+        "missed_by_blocking": [
+          "S2-306350649"
+        ],
+        "rejected_by_classifier": [],
+        "false_merges": []
+      }
+    ]
+  },
+  "holdout": {
+    "entities": 8000,
+    "macro_f05": 0.9050733070335398,
+    "pair_precision": 0.9672117365168775,
+    "pair_recall": 0.823544149754823,
+    "candidate_recall": 0.9269122015820179,
+    "singleton_accuracy": 0.9041095890410958,
+    "singleton_count": 438,
+    "empty_baseline_macro_f05": 0.05475,
+    "by_country": {
+      "us": 0.9285483492397124,
+      "india": 0.8689859205529441
+    },
+    "threshold": 0.63,
+    "error_examples": [
+      {
+        "source1_entity_id": "S1-761628041",
+        "name": "sky constructions",
+        "truth": [
+          "S2-678477647",
+          "S3-63178593"
+        ],
+        "predicted": [
+          "S3-63178593"
+        ],
+        "score": 0.8333333333333334,
+        "missed_by_blocking": [],
+        "rejected_by_classifier": [
+          "S2-678477647"
+        ],
+        "false_merges": []
+      },
+      {
+        "source1_entity_id": "S1-357996510",
+        "name": "johnston valley sierra",
+        "truth": [
+          "S2-389302082",
+          "S3-474502956",
+          "S3-575490208",
+          "S3-950030096"
+        ],
+        "predicted": [
+          "S3-474502956",
+          "S3-575490208",
+          "S3-950030096"
+        ],
+        "score": 0.9375,
+        "missed_by_blocking": [],
+        "rejected_by_classifier": [
+          "S2-389302082"
+        ],
+        "false_merges": []
+      },
+      {
+        "source1_entity_id": "S1-785033747",
+        "name": "royal",
+        "truth": [
+          "S2-384639707",
+          "S2-53868024",
+          "S2-995082783",
+          "S3-304884603",
+          "S3-748911252"
+        ],
+        "predicted": [
+          "S2-384639707",
+          "S2-995082783",
+          "S3-304884603",
+          "S3-748911252"
+        ],
+        "score": 0.9523809523809523,
+        "missed_by_blocking": [],
+        "rejected_by_classifier": [
+          "S2-53868024"
+        ],
+        "false_merges": []
+      },
+      {
+        "source1_entity_id": "S1-649448969",
+        "name": "green construction studios",
+        "truth": [
+          "S2-775900176",
+          "S3-424994971"
+        ],
+        "predicted": [
+          "S3-424994971"
+        ],
+        "score": 0.8333333333333334,
+        "missed_by_blocking": [],
+        "rejected_by_classifier": [
+          "S2-775900176"
+        ],
+        "false_merges": []
+      },
+      {
+        "source1_entity_id": "S1-965993464",
+        "name": "laxmi foods",
+        "truth": [
+          "S2-87542849",
+          "S3-381813864",
+          "S3-701675075"
+        ],
+        "predicted": [
+          "S2-87542849"
+        ],
+        "score": 0.7142857142857143,
+        "missed_by_blocking": [
+          "S3-381813864"
+        ],
+        "rejected_by_classifier": [
+          "S3-701675075"
+        ],
+        "false_merges": []
+      },
+      {
+        "source1_entity_id": "S1-372488407",
+        "name": "daloris mccarter classic renewable",
+        "truth": [
+          "S2-116744230",
+          "S2-178262904",
+          "S2-379884653",
+          "S2-96842999",
+          "S3-122638674",
+          "S3-313767752"
+        ],
+        "predicted": [
+          "S2-116744230",
+          "S2-379884653",
+          "S2-96842999",
+          "S3-122638674",
+          "S3-313767752"
+        ],
+        "score": 0.9615384615384616,
+        "missed_by_blocking": [],
+        "rejected_by_classifier": [
+          "S2-178262904"
+        ],
+        "false_merges": []
+      },
+      {
+        "source1_entity_id": "S1-115826007",
+        "name": "placid projects india",
+        "truth": [
+          "S2-366694920",
+          "S2-689964206",
+          "S3-309603888"
+        ],
+        "predicted": [
+          "S2-366694920",
+          "S2-673623177",
+          "S2-689964206"
+        ],
+        "score": 0.6666666666666666,
+        "missed_by_blocking": [],
+        "rejected_by_classifier": [
+          "S3-309603888"
+        ],
+        "false_merges": [
+          "S2-673623177"
+        ]
+      },
+      {
+        "source1_entity_id": "S1-20832538",
+        "name": "aleman midwest brand",
+        "truth": [
+          "S2-599262152",
+          "S3-157486227",
+          "S3-355482377",
+          "S3-837610745"
+        ],
+        "predicted": [
+          "S2-599262152",
+          "S3-157486227",
+          "S3-355482377"
+        ],
+        "score": 0.9375,
+        "missed_by_blocking": [],
+        "rejected_by_classifier": [
+          "S3-837610745"
+        ],
+        "false_merges": []
+      },
+      {
+        "source1_entity_id": "S1-385507108",
+        "name": "india holy services",
+        "truth": [
+          "S2-132431287",
+          "S2-476030510",
+          "S2-60943924",
+          "S2-902367540",
+          "S3-301636018",
+          "S3-577848942"
+        ],
+        "predicted": [
+          "S2-132431287",
+          "S2-476030510",
+          "S2-60943924",
+          "S2-902367540",
+          "S3-301636018"
+        ],
+        "score": 0.9615384615384616,
+        "missed_by_blocking": [
+          "S3-577848942"
+        ],
+        "rejected_by_classifier": [],
+        "false_merges": []
+      },
+      {
+        "source1_entity_id": "S1-331235305",
+        "name": "kestelle fashion",
+        "truth": [
+          "S2-183255381",
+          "S2-811674680"
+        ],
+        "predicted": [
+          "S2-183255381",
+          "S2-51983414",
+          "S2-811674680"
+        ],
+        "score": 0.7142857142857143,
+        "missed_by_blocking": [],
+        "rejected_by_classifier": [],
+        "false_merges": [
+          "S2-51983414"
+        ]
+      },
+      {
+        "source1_entity_id": "S1-235320839",
+        "name": "katyayani brothers",
+        "truth": [
+          "S2-709042396",
+          "S2-762310488",
+          "S2-807816807",
+          "S2-978551365",
+          "S3-473803624",
+          "S3-573316892",
+          "S3-808826474"
+        ],
+        "predicted": [
+          "S2-762310488",
+          "S2-807816807",
+          "S2-978551365",
+          "S3-473803624",
+          "S3-573316892"
+        ],
+        "score": 0.9259259259259259,
+        "missed_by_blocking": [
+          "S2-709042396"
+        ],
+        "rejected_by_classifier": [
+          "S3-808826474"
+        ],
+        "false_merges": []
+      },
+      {
+        "source1_entity_id": "S1-564990340",
+        "name": "rydzewski star aberdeen",
+        "truth": [
+          "S2-311093386",
+          "S2-371476291",
+          "S3-320201273",
+          "S3-808662237"
+        ],
+        "predicted": [
+          "S2-371476291",
+          "S3-320201273",
+          "S3-808662237"
+        ],
+        "score": 0.9375,
+        "missed_by_blocking": [
+          "S2-311093386"
+        ],
+        "rejected_by_classifier": [],
+        "false_merges": []
+      },
+      {
+        "source1_entity_id": "S1-718475237",
+        "name": "ph permian",
+        "truth": [
+          "S2-804441489",
+          "S3-255719923"
+        ],
+        "predicted": [
+          "S3-255719923"
+        ],
+        "score": 0.8333333333333334,
+        "missed_by_blocking": [],
+        "rejected_by_classifier": [
+          "S2-804441489"
+        ],
+        "false_merges": []
+      },
+      {
+        "source1_entity_id": "S1-54395942",
+        "name": "thiruvananthapuram energy",
+        "truth": [
+          "S2-150246659",
+          "S2-521395559",
+          "S2-575787638",
+          "S3-115174903",
+          "S3-312783852"
+        ],
+        "predicted": [
+          "S2-150246659",
+          "S2-575787638",
+          "S3-115174903",
+          "S3-312783852"
+        ],
+        "score": 0.9523809523809523,
+        "missed_by_blocking": [],
+        "rejected_by_classifier": [
+          "S2-521395559"
+        ],
+        "false_merges": []
+      },
+      {
+        "source1_entity_id": "S1-662674980",
+        "name": "barosoft",
+        "truth": [
+          "S2-72223523",
+          "S3-727741946"
+        ],
+        "predicted": [
+          "S3-727741946"
+        ],
+        "score": 0.8333333333333334,
+        "missed_by_blocking": [
+          "S2-72223523"
+        ],
+        "rejected_by_classifier": [],
+        "false_merges": []
+      },
+      {
+        "source1_entity_id": "S1-970606765",
+        "name": "keystone environmental brands",
+        "truth": [
+          "S2-707911559",
+          "S2-914129471",
+          "S3-517323837",
+          "S3-842335765",
+          "S3-898786168"
+        ],
+        "predicted": [
+          "S2-914129471",
+          "S3-517323837",
+          "S3-842335765",
+          "S3-898786168"
+        ],
+        "score": 0.9523809523809523,
+        "missed_by_blocking": [
+          "S2-707911559"
+        ],
+        "rejected_by_classifier": [],
+        "false_merges": []
+      },
+      {
+        "source1_entity_id": "S1-244716821",
+        "name": "seek memorial trust",
+        "truth": [
+          "S2-312438970",
+          "S3-106905533",
+          "S3-620373545"
+        ],
+        "predicted": [
+          "S2-312438970",
+          "S2-785385335",
+          "S3-620373545"
+        ],
+        "score": 0.6666666666666666,
+        "missed_by_blocking": [
+          "S3-106905533"
+        ],
+        "rejected_by_classifier": [],
+        "false_merges": [
+          "S2-785385335"
+        ]
+      },
+      {
+        "source1_entity_id": "S1-135880045",
+        "name": "unified consumer works",
+        "truth": [
+          "S2-462215442",
+          "S2-605105153",
+          "S3-512899626",
+          "S3-711786203"
+        ],
+        "predicted": [
+          "S2-462215442",
+          "S2-605105153",
+          "S3-512899626"
+        ],
+        "score": 0.9375,
+        "missed_by_blocking": [],
+        "rejected_by_classifier": [
+          "S3-711786203"
+        ],
+        "false_merges": []
+      },
+      {
+        "source1_entity_id": "S1-498136358",
+        "name": "lorinda m escamilla dpm dds pc",
+        "truth": [
+          "S2-281376868",
+          "S2-936766977",
+          "S3-122687539",
+          "S3-122965393",
+          "S3-916752039"
+        ],
+        "predicted": [
+          "S2-281376868",
+          "S2-936766977",
+          "S3-122965393"
+        ],
+        "score": 0.8823529411764706,
+        "missed_by_blocking": [],
+        "rejected_by_classifier": [
+          "S3-122687539",
+          "S3-916752039"
+        ],
+        "false_merges": []
+      },
+      {
+        "source1_entity_id": "S1-996091044",
+        "name": "ei fund",
+        "truth": [
+          "S2-285168033",
+          "S2-578228962",
+          "S3-220231514",
+          "S3-463922973",
+          "S3-950450524"
+        ],
+        "predicted": [
+          "S2-285168033",
+          "S2-578228962",
+          "S3-220231514",
+          "S3-463922973"
+        ],
+        "score": 0.9523809523809523,
+        "missed_by_blocking": [
+          "S3-950450524"
+        ],
+        "rejected_by_classifier": [],
+        "false_merges": []
+      },
+      {
+        "source1_entity_id": "S1-987126221",
+        "name": "grand clean iris",
+        "truth": [
+          "S2-730568186",
+          "S3-558444772"
+        ],
+        "predicted": [
+          "S2-730568186"
+        ],
+        "score": 0.8333333333333334,
+        "missed_by_blocking": [],
+        "rejected_by_classifier": [
+          "S3-558444772"
+        ],
+        "false_merges": []
+      },
+      {
+        "source1_entity_id": "S1-328891812",
+        "name": "mfc dynamic alibaba",
+        "truth": [
+          "S2-253283362",
+          "S2-693890079",
+          "S3-869123099",
+          "S3-991491959"
+        ],
+        "predicted": [
+          "S2-253283362",
+          "S2-693890079",
+          "S3-991491959"
+        ],
+        "score": 0.9375,
+        "missed_by_blocking": [],
+        "rejected_by_classifier": [
+          "S3-869123099"
+        ],
+        "false_merges": []
+      },
+      {
+        "source1_entity_id": "S1-512446493",
+        "name": "dream industries",
+        "truth": [
+          "S2-581271502",
+          "S2-780199468"
+        ],
+        "predicted": [],
+        "score": 0.0,
+        "missed_by_blocking": [
+          "S2-581271502",
+          "S2-780199468"
+        ],
+        "rejected_by_classifier": [],
+        "false_merges": []
+      },
+      {
+        "source1_entity_id": "S1-44244291",
+        "name": "baba it",
+        "truth": [
+          "S2-340192813",
+          "S3-822405138"
+        ],
+        "predicted": [
+          "S2-340192813"
+        ],
+        "score": 0.8333333333333334,
+        "missed_by_blocking": [],
+        "rejected_by_classifier": [
+          "S3-822405138"
+        ],
+        "false_merges": []
+      },
+      {
+        "source1_entity_id": "S1-742499887",
+        "name": "kirchoff lafayette",
+        "truth": [
+          "S2-171189304",
+          "S2-772949849",
+          "S2-829592875",
+          "S3-174210787"
+        ],
+        "predicted": [
+          "S2-171189304",
+          "S2-829592875",
+          "S3-174210787"
+        ],
+        "score": 0.9375,
+        "missed_by_blocking": [],
+        "rejected_by_classifier": [
+          "S2-772949849"
+        ],
+        "false_merges": []
+      },
+      {
+        "source1_entity_id": "S1-829542274",
+        "name": "janie ballard optimal acquisitions",
+        "truth": [
+          "S3-851004742"
+        ],
+        "predicted": [
+          "S2-760929133",
+          "S3-851004742"
+        ],
+        "score": 0.5555555555555556,
+        "missed_by_blocking": [],
+        "rejected_by_classifier": [],
+        "false_merges": [
+          "S2-760929133"
+        ]
+      },
+      {
+        "source1_entity_id": "S1-915076160",
+        "name": "taus breeze",
+        "truth": [
+          "S2-834607459",
+          "S3-798377260"
+        ],
+        "predicted": [
+          "S2-834607459"
+        ],
+        "score": 0.8333333333333334,
+        "missed_by_blocking": [
+          "S3-798377260"
+        ],
+        "rejected_by_classifier": [],
+        "false_merges": []
+      },
+      {
+        "source1_entity_id": "S1-986339458",
+        "name": "rga infraheight",
+        "truth": [
+          "S2-133948296",
+          "S2-362553679",
+          "S3-104175883",
+          "S3-268825297",
+          "S3-387549322"
+        ],
+        "predicted": [
+          "S2-133948296",
+          "S3-268825297"
+        ],
+        "score": 0.7692307692307693,
+        "missed_by_blocking": [
+          "S2-362553679",
+          "S3-387549322"
+        ],
+        "rejected_by_classifier": [
+          "S3-104175883"
+        ],
+        "false_merges": []
+      },
+      {
+        "source1_entity_id": "S1-979686072",
+        "name": "nr annapoorna",
+        "truth": [
+          "S2-602119591",
+          "S3-334744038",
+          "S3-865283197",
+          "S3-918332894"
+        ],
+        "predicted": [],
+        "score": 0.0,
+        "missed_by_blocking": [],
+        "rejected_by_classifier": [
+          "S2-602119591",
+          "S3-334744038",
+          "S3-865283197",
+          "S3-918332894"
+        ],
+        "false_merges": []
+      },
+      {
+        "source1_entity_id": "S1-426661454",
+        "name": "verrance partners",
+        "truth": [
+          "S2-159094937",
+          "S3-583922061"
+        ],
+        "predicted": [
+          "S2-836456088",
+          "S3-583922061"
+        ],
+        "score": 0.5,
+        "missed_by_blocking": [],
+        "rejected_by_classifier": [
+          "S2-159094937"
+        ],
+        "false_merges": [
+          "S2-836456088"
+        ]
+      }
+    ]
+  },
+  "exact_name_address_baseline": {
+    "entities": 8000,
+    "macro_f05": 0.14553289801766003,
+    "pair_precision": 1.0,
+    "pair_recall": 0.04878485271484305,
+    "candidate_recall": 0.9269122015820179,
+    "singleton_accuracy": 1.0,
+    "singleton_count": 438,
+    "empty_baseline_macro_f05": 0.05475,
+    "by_country": {
+      "us": 0.17284411937798602,
+      "india": 0.10354828338603927
+    },
+    "threshold": 0.5,
+    "error_examples": [
+      {
+        "source1_entity_id": "S1-893941712",
+        "name": "a ace old",
+        "truth": [
+          "S2-332612095",
+          "S2-383851025",
+          "S2-396542357",
+          "S2-739610350",
+          "S3-207985541"
+        ],
+        "predicted": [],
+        "score": 0.0,
+        "missed_by_blocking": [],
+        "rejected_by_classifier": [
+          "S2-332612095",
+          "S2-383851025",
+          "S2-396542357",
+          "S2-739610350",
+          "S3-207985541"
+        ],
+        "false_merges": []
+      },
+      {
+        "source1_entity_id": "S1-433273073",
+        "name": "technologies cold",
+        "truth": [
+          "S2-225316880",
+          "S2-853224848",
+          "S3-204734919"
+        ],
+        "predicted": [],
+        "score": 0.0,
+        "missed_by_blocking": [],
+        "rejected_by_classifier": [
+          "S2-225316880",
+          "S2-853224848",
+          "S3-204734919"
+        ],
+        "false_merges": []
+      },
+      {
+        "source1_entity_id": "S1-392867569",
+        "name": "costner bsp",
+        "truth": [
+          "S2-127273152",
+          "S2-512796161",
+          "S2-862918087",
+          "S3-270000368",
+          "S3-572081431",
+          "S3-943147424"
+        ],
+        "predicted": [],
+        "score": 0.0,
+        "missed_by_blocking": [],
+        "rejected_by_classifier": [
+          "S2-127273152",
+          "S2-512796161",
+          "S2-862918087",
+          "S3-270000368",
+          "S3-572081431",
+          "S3-943147424"
+        ],
+        "false_merges": []
+      },
+      {
+        "source1_entity_id": "S1-761628041",
+        "name": "sky constructions",
+        "truth": [
+          "S2-678477647",
+          "S3-63178593"
+        ],
+        "predicted": [],
+        "score": 0.0,
+        "missed_by_blocking": [],
+        "rejected_by_classifier": [
+          "S2-678477647",
+          "S3-63178593"
+        ],
+        "false_merges": []
+      },
+      {
+        "source1_entity_id": "S1-110771424",
+        "name": "olanan archimedes",
+        "truth": [
+          "S2-395335849",
+          "S3-121211704",
+          "S3-483215123"
+        ],
+        "predicted": [],
+        "score": 0.0,
+        "missed_by_blocking": [],
+        "rejected_by_classifier": [
+          "S2-395335849",
+          "S3-121211704",
+          "S3-483215123"
+        ],
+        "false_merges": []
+      },
+      {
+        "source1_entity_id": "S1-231126111",
+        "name": "new delhi hub",
+        "truth": [
+          "S2-794735111",
+          "S3-397692253"
+        ],
+        "predicted": [],
+        "score": 0.0,
+        "missed_by_blocking": [],
+        "rejected_by_classifier": [
+          "S2-794735111",
+          "S3-397692253"
+        ],
+        "false_merges": []
+      },
+      {
+        "source1_entity_id": "S1-823699072",
+        "name": "dynamic australian",
+        "truth": [
+          "S3-776195922"
+        ],
+        "predicted": [],
+        "score": 0.0,
+        "missed_by_blocking": [],
+        "rejected_by_classifier": [
+          "S3-776195922"
+        ],
+        "false_merges": []
+      },
+      {
+        "source1_entity_id": "S1-357996510",
+        "name": "johnston valley sierra",
+        "truth": [
+          "S2-389302082",
+          "S3-474502956",
+          "S3-575490208",
+          "S3-950030096"
+        ],
+        "predicted": [],
+        "score": 0.0,
+        "missed_by_blocking": [],
+        "rejected_by_classifier": [
+          "S2-389302082",
+          "S3-474502956",
+          "S3-575490208",
+          "S3-950030096"
+        ],
+        "false_merges": []
+      },
+      {
+        "source1_entity_id": "S1-785033747",
+        "name": "royal",
+        "truth": [
+          "S2-384639707",
+          "S2-53868024",
+          "S2-995082783",
+          "S3-304884603",
+          "S3-748911252"
+        ],
+        "predicted": [
+          "S2-384639707"
+        ],
+        "score": 0.5555555555555556,
+        "missed_by_blocking": [],
+        "rejected_by_classifier": [
+          "S2-53868024",
+          "S2-995082783",
+          "S3-304884603",
+          "S3-748911252"
+        ],
+        "false_merges": []
+      },
+      {
+        "source1_entity_id": "S1-320847224",
+        "name": "royal industries",
+        "truth": [
+          "S2-587827917",
+          "S3-516909374"
+        ],
+        "predicted": [],
+        "score": 0.0,
+        "missed_by_blocking": [],
+        "rejected_by_classifier": [
+          "S2-587827917",
+          "S3-516909374"
+        ],
+        "false_merges": []
+      },
+      {
+        "source1_entity_id": "S1-568904081",
+        "name": "meridian",
+        "truth": [
+          "S2-247461400",
+          "S2-610240402",
+          "S2-720020266",
+          "S3-400409933",
+          "S3-596005643",
+          "S3-739339659",
+          "S3-806463372"
+        ],
+        "predicted": [
+          "S2-247461400"
+        ],
+        "score": 0.45454545454545453,
+        "missed_by_blocking": [],
+        "rejected_by_classifier": [
+          "S2-610240402",
+          "S2-720020266",
+          "S3-400409933",
+          "S3-596005643",
+          "S3-739339659",
+          "S3-806463372"
+        ],
+        "false_merges": []
+      },
+      {
+        "source1_entity_id": "S1-112911601",
+        "name": "obs commerce",
+        "truth": [
+          "S2-297177496",
+          "S2-304891139",
+          "S2-79928239",
+          "S3-224939557",
+          "S3-451529402"
+        ],
+        "predicted": [],
+        "score": 0.0,
+        "missed_by_blocking": [],
+        "rejected_by_classifier": [
+          "S2-297177496",
+          "S2-304891139",
+          "S2-79928239",
+          "S3-224939557",
+          "S3-451529402"
+        ],
+        "false_merges": []
+      },
+      {
+        "source1_entity_id": "S1-649448969",
+        "name": "green construction studios",
+        "truth": [
+          "S2-775900176",
+          "S3-424994971"
+        ],
+        "predicted": [],
+        "score": 0.0,
+        "missed_by_blocking": [],
+        "rejected_by_classifier": [
+          "S2-775900176",
+          "S3-424994971"
+        ],
+        "false_merges": []
+      },
+      {
+        "source1_entity_id": "S1-965993464",
+        "name": "laxmi foods",
+        "truth": [
+          "S2-87542849",
+          "S3-381813864",
+          "S3-701675075"
+        ],
+        "predicted": [],
+        "score": 0.0,
+        "missed_by_blocking": [
+          "S3-381813864"
+        ],
+        "rejected_by_classifier": [
+          "S2-87542849",
+          "S3-701675075"
+        ],
+        "false_merges": []
+      },
+      {
+        "source1_entity_id": "S1-432270892",
+        "name": "bright mountain garden",
+        "truth": [
+          "S2-422172930",
+          "S3-312956273",
+          "S3-463180822"
+        ],
+        "predicted": [],
+        "score": 0.0,
+        "missed_by_blocking": [],
+        "rejected_by_classifier": [
+          "S2-422172930",
+          "S3-312956273",
+          "S3-463180822"
+        ],
+        "false_merges": []
+      },
+      {
+        "source1_entity_id": "S1-633530601",
+        "name": "wood india disposable",
+        "truth": [
+          "S2-823964126",
+          "S2-852907103",
+          "S3-297861916",
+          "S3-314778958",
+          "S3-73465996",
+          "S3-930823412"
+        ],
+        "predicted": [],
+        "score": 0.0,
+        "missed_by_blocking": [],
+        "rejected_by_classifier": [
+          "S2-823964126",
+          "S2-852907103",
+          "S3-297861916",
+          "S3-314778958",
+          "S3-73465996",
+          "S3-930823412"
+        ],
+        "false_merges": []
+      },
+      {
+        "source1_entity_id": "S1-16815944",
+        "name": "zev esolutions",
+        "truth": [
+          "S2-102745596",
+          "S2-355364555",
+          "S2-913211612",
+          "S3-214218862",
+          "S3-663014365"
+        ],
+        "predicted": [],
+        "score": 0.0,
+        "missed_by_blocking": [],
+        "rejected_by_classifier": [
+          "S2-102745596",
+          "S2-355364555",
+          "S2-913211612",
+          "S3-214218862",
+          "S3-663014365"
+        ],
+        "false_merges": []
+      },
+      {
+        "source1_entity_id": "S1-372488407",
+        "name": "daloris mccarter classic renewable",
+        "truth": [
+          "S2-116744230",
+          "S2-178262904",
+          "S2-379884653",
+          "S2-96842999",
+          "S3-122638674",
+          "S3-313767752"
+        ],
+        "predicted": [
+          "S2-379884653"
+        ],
+        "score": 0.5,
+        "missed_by_blocking": [],
+        "rejected_by_classifier": [
+          "S2-116744230",
+          "S2-178262904",
+          "S2-96842999",
+          "S3-122638674",
+          "S3-313767752"
+        ],
+        "false_merges": []
+      },
+      {
+        "source1_entity_id": "S1-115826007",
+        "name": "placid projects india",
+        "truth": [
+          "S2-366694920",
+          "S2-689964206",
+          "S3-309603888"
+        ],
+        "predicted": [],
+        "score": 0.0,
+        "missed_by_blocking": [],
+        "rejected_by_classifier": [
+          "S2-366694920",
+          "S2-689964206",
+          "S3-309603888"
+        ],
+        "false_merges": []
+      },
+      {
+        "source1_entity_id": "S1-614092364",
+        "name": "silver cleaning service",
+        "truth": [
+          "S2-351391179",
+          "S2-93200348",
+          "S3-332914952",
+          "S3-36802494"
+        ],
+        "predicted": [],
+        "score": 0.0,
+        "missed_by_blocking": [],
+        "rejected_by_classifier": [
+          "S2-351391179",
+          "S2-93200348",
+          "S3-332914952",
+          "S3-36802494"
+        ],
+        "false_merges": []
+      },
+      {
+        "source1_entity_id": "S1-20832538",
+        "name": "aleman midwest brand",
+        "truth": [
+          "S2-599262152",
+          "S3-157486227",
+          "S3-355482377",
+          "S3-837610745"
+        ],
+        "predicted": [],
+        "score": 0.0,
+        "missed_by_blocking": [],
+        "rejected_by_classifier": [
+          "S2-599262152",
+          "S3-157486227",
+          "S3-355482377",
+          "S3-837610745"
+        ],
+        "false_merges": []
+      },
+      {
+        "source1_entity_id": "S1-385507108",
+        "name": "india holy services",
+        "truth": [
+          "S2-132431287",
+          "S2-476030510",
+          "S2-60943924",
+          "S2-902367540",
+          "S3-301636018",
+          "S3-577848942"
+        ],
+        "predicted": [
+          "S2-902367540"
+        ],
+        "score": 0.5,
+        "missed_by_blocking": [
+          "S3-577848942"
+        ],
+        "rejected_by_classifier": [
+          "S2-132431287",
+          "S2-476030510",
+          "S2-60943924",
+          "S3-301636018"
+        ],
+        "false_merges": []
+      },
+      {
+        "source1_entity_id": "S1-654827788",
+        "name": "lucknow beverages",
+        "truth": [
+          "S2-379357541",
+          "S2-593536099",
+          "S2-605615889",
+          "S2-641706949",
+          "S3-332161457"
+        ],
+        "predicted": [],
+        "score": 0.0,
+        "missed_by_blocking": [],
+        "rejected_by_classifier": [
+          "S2-379357541",
+          "S2-593536099",
+          "S2-605615889",
+          "S2-641706949",
+          "S3-332161457"
+        ],
+        "false_merges": []
+      },
+      {
+        "source1_entity_id": "S1-331235305",
+        "name": "kestelle fashion",
+        "truth": [
+          "S2-183255381",
+          "S2-811674680"
+        ],
+        "predicted": [],
+        "score": 0.0,
+        "missed_by_blocking": [],
+        "rejected_by_classifier": [
+          "S2-183255381",
+          "S2-811674680"
+        ],
+        "false_merges": []
+      },
+      {
+        "source1_entity_id": "S1-738078018",
+        "name": "indo hospitality",
+        "truth": [
+          "S2-284732902",
+          "S3-275474335",
+          "S3-501501174",
+          "S3-712712809"
+        ],
+        "predicted": [],
+        "score": 0.0,
+        "missed_by_blocking": [],
+        "rejected_by_classifier": [
+          "S2-284732902",
+          "S3-275474335",
+          "S3-501501174",
+          "S3-712712809"
+        ],
+        "false_merges": []
+      },
+      {
+        "source1_entity_id": "S1-235320839",
+        "name": "katyayani brothers",
+        "truth": [
+          "S2-709042396",
+          "S2-762310488",
+          "S2-807816807",
+          "S2-978551365",
+          "S3-473803624",
+          "S3-573316892",
+          "S3-808826474"
+        ],
+        "predicted": [],
+        "score": 0.0,
+        "missed_by_blocking": [
+          "S2-709042396"
+        ],
+        "rejected_by_classifier": [
+          "S2-762310488",
+          "S2-807816807",
+          "S2-978551365",
+          "S3-473803624",
+          "S3-573316892",
+          "S3-808826474"
+        ],
+        "false_merges": []
+      },
+      {
+        "source1_entity_id": "S1-564990340",
+        "name": "rydzewski star aberdeen",
+        "truth": [
+          "S2-311093386",
+          "S2-371476291",
+          "S3-320201273",
+          "S3-808662237"
+        ],
+        "predicted": [],
+        "score": 0.0,
+        "missed_by_blocking": [
+          "S2-311093386"
+        ],
+        "rejected_by_classifier": [
+          "S2-371476291",
+          "S3-320201273",
+          "S3-808662237"
+        ],
+        "false_merges": []
+      },
+      {
+        "source1_entity_id": "S1-718475237",
+        "name": "ph permian",
+        "truth": [
+          "S2-804441489",
+          "S3-255719923"
+        ],
+        "predicted": [],
+        "score": 0.0,
+        "missed_by_blocking": [],
+        "rejected_by_classifier": [
+          "S2-804441489",
+          "S3-255719923"
+        ],
+        "false_merges": []
+      },
+      {
+        "source1_entity_id": "S1-721752318",
+        "name": "vision seva samiti",
+        "truth": [
+          "S2-862749695",
+          "S3-485366943"
+        ],
+        "predicted": [],
+        "score": 0.0,
+        "missed_by_blocking": [],
+        "rejected_by_classifier": [
+          "S2-862749695",
+          "S3-485366943"
+        ],
+        "false_merges": []
+      },
+      {
+        "source1_entity_id": "S1-656022151",
+        "name": "shivam projects",
+        "truth": [
+          "S3-676977508",
+          "S3-936843218"
+        ],
+        "predicted": [],
+        "score": 0.0,
+        "missed_by_blocking": [],
+        "rejected_by_classifier": [
+          "S3-676977508",
+          "S3-936843218"
+        ],
+        "false_merges": []
+      }
+    ]
+  },
+  "training_entities": 24000,
+  "training_pairs": 1975243,
+  "training_positive_pairs": 76448,
+  "sample_entities": 40000,
+  "features": [
+    "name_ratio",
+    "name_sort",
+    "name_set",
+    "name_partial",
+    "name_jaccard",
+    "name_overlap",
+    "name_exact",
+    "name_length_ratio",
+    "name_acronym",
+    "address_ratio",
+    "address_sort",
+    "address_set",
+    "address_partial",
+    "address_jaccard",
+    "address_overlap",
+    "address_exact",
+    "address_length_ratio",
+    "number_jaccard",
+    "number_overlap",
+    "numbers_conflict",
+    "postcode_equal",
+    "postcode_conflict",
+    "name_missing",
+    "address_missing",
+    "country_equal",
+    "raw_name_ratio",
+    "first_number_equal",
+    "name_tokens_min",
+    "name_tokens_max"
+  ],
+  "feature_importance": {
+    "name_ratio": 517,
+    "name_sort": 481,
+    "name_set": 417,
+    "name_partial": 717,
+    "name_jaccard": 679,
+    "name_overlap": 163,
+    "name_exact": 6,
+    "name_length_ratio": 440,
+    "name_acronym": 80,
+    "address_ratio": 433,
+    "address_sort": 728,
+    "address_set": 519,
+    "address_partial": 583,
+    "address_jaccard": 511,
+    "address_overlap": 570,
+    "address_exact": 0,
+    "address_length_ratio": 716,
+    "number_jaccard": 401,
+    "number_overlap": 187,
+    "numbers_conflict": 200,
+    "postcode_equal": 37,
+    "postcode_conflict": 39,
+    "name_missing": 0,
+    "address_missing": 1,
+    "country_equal": 0,
+    "raw_name_ratio": 1301,
+    "first_number_equal": 139,
+    "name_tokens_min": 320,
+    "name_tokens_max": 315
+  },
+  "threshold_grid": [
+    {
+      "macro_f05": 0.7310584106164023,
+      "threshold": 0.05
+    },
+    {
+      "macro_f05": 0.7485035390807027,
+      "threshold": 0.060000000000000005
+    },
+    {
+      "macro_f05": 0.7590430943155666,
+      "threshold": 0.07
+    },
+    {
+      "macro_f05": 0.7695397549619258,
+      "threshold": 0.08
+    },
+    {
+      "macro_f05": 0.7820958981508902,
+      "threshold": 0.09
+    },
+    {
+      "macro_f05": 0.794395137065625,
+      "threshold": 0.1
+    },
+    {
+      "macro_f05": 0.8038134074074537,
+      "threshold": 0.11
+    },
+    {
+      "macro_f05": 0.8096496147560124,
+      "threshold": 0.12000000000000001
+    },
+    {
+      "macro_f05": 0.8145277242307992,
+      "threshold": 0.13
+    },
+    {
+      "macro_f05": 0.8184504022789526,
+      "threshold": 0.14
+    },
+    {
+      "macro_f05": 0.8220940852807309,
+      "threshold": 0.15000000000000002
+    },
+    {
+      "macro_f05": 0.8268124441489272,
+      "threshold": 0.16
+    },
+    {
+      "macro_f05": 0.8456433772109717,
+      "threshold": 0.16999999999999998
+    },
+    {
+      "macro_f05": 0.849629715507916,
+      "threshold": 0.18
+    },
+    {
+      "macro_f05": 0.8527163562881089,
+      "threshold": 0.19
+    },
+    {
+      "macro_f05": 0.8563515646118555,
+      "threshold": 0.2
+    },
+    {
+      "macro_f05": 0.8605680362206822,
+      "threshold": 0.21000000000000002
+    },
+    {
+      "macro_f05": 0.8642740782323606,
+      "threshold": 0.22000000000000003
+    },
+    {
+      "macro_f05": 0.867141574230269,
+      "threshold": 0.22999999999999998
+    },
+    {
+      "macro_f05": 0.8697244731324695,
+      "threshold": 0.24
+    },
+    {
+      "macro_f05": 0.8725126748149523,
+      "threshold": 0.25
+    },
+    {
+      "macro_f05": 0.8746278180058319,
+      "threshold": 0.26
+    },
+    {
+      "macro_f05": 0.8767929930016842,
+      "threshold": 0.27
+    },
+    {
+      "macro_f05": 0.8780613281973265,
+      "threshold": 0.28
+    },
+    {
+      "macro_f05": 0.8802743247159703,
+      "threshold": 0.29
+    },
+    {
+      "macro_f05": 0.8827655244332154,
+      "threshold": 0.3
+    },
+    {
+      "macro_f05": 0.8835920520478937,
+      "threshold": 0.31
+    },
+    {
+      "macro_f05": 0.8852146700807261,
+      "threshold": 0.32
+    },
+    {
+      "macro_f05": 0.8861811827235475,
+      "threshold": 0.33
+    },
+    {
+      "macro_f05": 0.8877369150417068,
+      "threshold": 0.33999999999999997
+    },
+    {
+      "macro_f05": 0.8888617430569973,
+      "threshold": 0.35
+    },
+    {
+      "macro_f05": 0.8901746842148086,
+      "threshold": 0.36
+    },
+    {
+      "macro_f05": 0.8907700593063062,
+      "threshold": 0.37
+    },
+    {
+      "macro_f05": 0.8924979949459286,
+      "threshold": 0.38
+    },
+    {
+      "macro_f05": 0.892893871802182,
+      "threshold": 0.39
+    },
+    {
+      "macro_f05": 0.8969807851472367,
+      "threshold": 0.4
+    },
+    {
+      "macro_f05": 0.8981080162602718,
+      "threshold": 0.41
+    },
+    {
+      "macro_f05": 0.8985041158302358,
+      "threshold": 0.42
+    },
+    {
+      "macro_f05": 0.8993814423155677,
+      "threshold": 0.43
+    },
+    {
+      "macro_f05": 0.9000017785799829,
+      "threshold": 0.44
+    },
+    {
+      "macro_f05": 0.9003679834467743,
+      "threshold": 0.45
+    },
+    {
+      "macro_f05": 0.9008759713244697,
+      "threshold": 0.46
+    },
+    {
+      "macro_f05": 0.9014618667020374,
+      "threshold": 0.47
+    },
+    {
+      "macro_f05": 0.9021838091484344,
+      "threshold": 0.48
+    },
+    {
+      "macro_f05": 0.9028323309758755,
+      "threshold": 0.49
+    },
+    {
+      "macro_f05": 0.9026622099967656,
+      "threshold": 0.5
+    },
+    {
+      "macro_f05": 0.9026232563035195,
+      "threshold": 0.51
+    },
+    {
+      "macro_f05": 0.9031936466815861,
+      "threshold": 0.52
+    },
+    {
+      "macro_f05": 0.9033941706916705,
+      "threshold": 0.53
+    },
+    {
+      "macro_f05": 0.9036277132330686,
+      "threshold": 0.54
+    },
+    {
+      "macro_f05": 0.9041796522064101,
+      "threshold": 0.55
+    },
+    {
+      "macro_f05": 0.9042231782957405,
+      "threshold": 0.56
+    },
+    {
+      "macro_f05": 0.9039392550622316,
+      "threshold": 0.5700000000000001
+    },
+    {
+      "macro_f05": 0.9040080619415567,
+      "threshold": 0.5800000000000001
+    },
+    {
+      "macro_f05": 0.9039500095290036,
+      "threshold": 0.5900000000000001
+    },
+    {
+      "macro_f05": 0.9040807514725737,
+      "threshold": 0.6000000000000001
+    },
+    {
+      "macro_f05": 0.9039666484988185,
+      "threshold": 0.6100000000000001
+    },
+    {
+      "macro_f05": 0.9043207670441529,
+      "threshold": 0.6200000000000001
+    },
+    {
+      "macro_f05": 0.904597207385378,
+      "threshold": 0.63
+    },
+    {
+      "macro_f05": 0.9042124032056864,
+      "threshold": 0.64
+    },
+    {
+      "macro_f05": 0.9040105345908533,
+      "threshold": 0.65
+    },
+    {
+      "macro_f05": 0.903688762176637,
+      "threshold": 0.66
+    },
+    {
+      "macro_f05": 0.9036296515085644,
+      "threshold": 0.67
+    },
+    {
+      "macro_f05": 0.9034298224876401,
+      "threshold": 0.68
+    },
+    {
+      "macro_f05": 0.9032636599912334,
+      "threshold": 0.6900000000000001
+    },
+    {
+      "macro_f05": 0.9025514963603467,
+      "threshold": 0.7000000000000001
+    },
+    {
+      "macro_f05": 0.9025551884069601,
+      "threshold": 0.7100000000000001
+    },
+    {
+      "macro_f05": 0.9024483262632141,
+      "threshold": 0.7200000000000001
+    },
+    {
+      "macro_f05": 0.9018944822521896,
+      "threshold": 0.7300000000000001
+    },
+    {
+      "macro_f05": 0.9015625819993608,
+      "threshold": 0.7400000000000001
+    },
+    {
+      "macro_f05": 0.9010938302215771,
+      "threshold": 0.7500000000000001
+    },
+    {
+      "macro_f05": 0.900528098436018,
+      "threshold": 0.76
+    },
+    {
+      "macro_f05": 0.9000209832457913,
+      "threshold": 0.77
+    },
+    {
+      "macro_f05": 0.9001701027378636,
+      "threshold": 0.78
+    },
+    {
+      "macro_f05": 0.8996543787817036,
+      "threshold": 0.79
+    },
+    {
+      "macro_f05": 0.8988281525124464,
+      "threshold": 0.8
+    },
+    {
+      "macro_f05": 0.8981071494229084,
+      "threshold": 0.81
+    },
+    {
+      "macro_f05": 0.8976350591114977,
+      "threshold": 0.8200000000000001
+    },
+    {
+      "macro_f05": 0.8965519948982249,
+      "threshold": 0.8300000000000001
+    },
+    {
+      "macro_f05": 0.89505327509945,
+      "threshold": 0.8400000000000001
+    },
+    {
+      "macro_f05": 0.893925167483565,
+      "threshold": 0.8500000000000001
+    },
+    {
+      "macro_f05": 0.892365859874385,
+      "threshold": 0.8600000000000001
+    },
+    {
+      "macro_f05": 0.8906640440371634,
+      "threshold": 0.8700000000000001
+    },
+    {
+      "macro_f05": 0.8886273864764527,
+      "threshold": 0.8800000000000001
+    },
+    {
+      "macro_f05": 0.8872291453213854,
+      "threshold": 0.89
+    },
+    {
+      "macro_f05": 0.8837082664302538,
+      "threshold": 0.9
+    },
+    {
+      "macro_f05": 0.878874557400241,
+      "threshold": 0.91
+    },
+    {
+      "macro_f05": 0.8743658530611321,
+      "threshold": 0.92
+    },
+    {
+      "macro_f05": 0.8681776843747727,
+      "threshold": 0.93
+    },
+    {
+      "macro_f05": 0.8605390443123232,
+      "threshold": 0.9400000000000001
+    },
+    {
+      "macro_f05": 0.849683431199318,
+      "threshold": 0.9500000000000001
+    },
+    {
+      "macro_f05": 0.8354315233733679,
+      "threshold": 0.9600000000000001
+    },
+    {
+      "macro_f05": 0.8125510592481371,
+      "threshold": 0.9700000000000001
+    },
+    {
+      "macro_f05": 0.7790717352216691,
+      "threshold": 0.9800000000000001
+    },
+    {
+      "macro_f05": 0.7197098774590063,
+      "threshold": 0.99
+    }
+  ],
+  "limitations": [
+    "France is absent from labeled training data; its accuracy is unmeasured.",
+    "Metrics are a random S1 holdout, not the hidden leaderboard.",
+    "Blocks over max_block references are skipped; missed candidates cannot be recovered by the classifier."
+  ]
+}

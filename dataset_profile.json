@@ -1,0 +1,51 @@
+{
+  "test_source1.tsv": {
+    "rows": 1732544,
+    "countries": {
+      "US": 663106,
+      "France": 259452,
+      "India": 809986
+    }
+  },
+  "test_source2.tsv": {
+    "rows": 4887273,
+    "countries": {
+      "India": 2312565,
+      "France": 703378,
+      "US": 1871330
+    }
+  },
+  "test_source3.tsv": {
+    "rows": 5082316,
+    "countries": {
+      "India": 2405000,
+      "France": 731615,
+      "US": 1945701
+    }
+  },
+  "train_ground_truth.tsv": {
+    "rows": 2206821,
+    "countries": {}
+  },
+  "train_source1.tsv": {
+    "rows": 2206821,
+    "countries": {
+      "US": 1323633,
+      "India": 883188
+    }
+  },
+  "train_source2.tsv": {
+    "rows": 5034616,
+    "countries": {
+      "India": 2017799,
+      "US": 3016817
+    }
+  },
+  "train_source3.tsv": {
+    "rows": 5285603,
+    "countries": {
+      "US": 3170056,
+      "India": 2115547
+    }
+  }
+}
